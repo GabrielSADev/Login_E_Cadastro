@@ -1,5 +1,8 @@
 body{
     background-color: #2d2d6c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 main{
     background-color: white;
@@ -11,12 +14,13 @@ main{
 }
 #sublimoonimagem{
     position: relative;
-    width: 6.2vw;
-    left: 38%;
+    width: 8vw;
+    left: 35%;
 }
 h1{
     color: #2d2d6c;
     text-align: center;
+    font-size: 3.5vw;
 }
 
 form{
@@ -24,7 +28,7 @@ form{
 }
 label{
     color: #2d2d6c;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
     margin: 0%;
     white-space: nowrap;
     font-weight: 700;
@@ -39,44 +43,31 @@ label{
 #nome{
     border-color: #2d2db4;
     border-radius: 8px;
-    padding-right: 8vw;
-    height: 1.5vw;
+    padding-right: 14vw;
+    height: 1.7vw;
     
 }
 #senha{
     border-color: #2d2db4;
     border-radius: 8px;
-    padding-right: 8vw;
-    height: 1.5vw;
+    padding-right: 14vw;
+    height: 1.7vw;
 }
 
 #senhaconf{
     border-color: #2d2db4;
     border-radius: 8px;
-    padding-right: 8vw;
-    height: 1.5vw;
-}
-
-#CEP{
-    border-color: #2d2db4;
-    border-radius: 8px;
-    padding-right: 8vw;
-    height: 1.5vw;
+    padding-right: 14vw;
+    height: 1.7vw;
 }
 
 #email{
     border-color: #2d2db4;
     border-radius: 8px;
-    padding-right: 8vw;
-    height: 1.5vw;
+    padding-right: 14vw;
+    height: 1.7vw;
 }
 
-#telefone{
-    border-color: #2d2db4;
-    border-radius: 8px;
-    padding-right: 8vw;
-    height: 1.5vw;
-}
 
 #senha01{
     width: 2.7vw;
@@ -86,17 +77,11 @@ label{
     width: 2.7vw;
 }
 
-#CEP01{
-    width: 2.7vw;
-}
 
 #email01{
     width: 2.7vw;
 }
 
-#tel01{
-    width: 2.7vw;
-}
 
 button{
     color: white;
@@ -105,12 +90,7 @@ button{
     border-color:#2d2db4 ;
     padding: 2% 10%;
     border-radius: 7px;
-    margin-left: 8.4vw;
+    margin-left: 8.2vw;
     margin-top: 5%;
     cursor: pointer;
-}
-.todos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
